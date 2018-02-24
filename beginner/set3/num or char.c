@@ -8,14 +8,13 @@ scanf("%[^\n]s",s1);
 l=strlen(s1);
 for(i=0;i<l;i++)
 {
-if((s1[i]>='a'&&s1[i]<='z')||(s1[i]>='A'&&s1[i]<='Z'))
+if(s1[i]>='0'&&s1[i]<='9')
 {
-   printf("no");
+   printf("yes");
    break;
 }
    else{
-   printf("yes");
+   printf("no");
    break;}
 }
-	return 0;
-}
+
