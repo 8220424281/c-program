@@ -12,11 +12,11 @@ int main()
 	if(count==2)
 	{
 	
-		printf("Prime");
+		printf("Yes");
 	}
 	else
 	{
-	printf("not Prime");
+	printf("No");
 	}
 	
 	return 0;
