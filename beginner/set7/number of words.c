@@ -9,7 +9,9 @@ l=strlen(s1);
 for(i=0;i<l;i++)
 {
 if(s1[i]==' ')
+{
    c++;
+}
 }
 printf("%d",c+1);
 return 0;
