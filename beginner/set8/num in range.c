@@ -3,7 +3,7 @@
 int main()
 {
 	int i,flag=0,L,R,N;
-	scanf("%d%d%d",&L,&R,&N);
+	scanf("%d%d%d",&N,&L,&R);
 	for(i=L;i<=R;i++)
 	{
 	if(i==N)	
