@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(void) {
-	int a[100],MIN,i,n;
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	int a[100],MIN,i;
+	for(i=0;i<10;i++)
 	{
 	scanf("%d",&a[i]);
 	}
