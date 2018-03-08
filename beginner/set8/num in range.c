@@ -2,11 +2,11 @@
 #include<string.h>
 int main()
 {
-	int i,flag=0,start,end,num;
-	scanf("%d%d%d",&start,&end,&num);
-	for(i=start;i<=end;i++)
+	int i,flag=0,L,R,N;
+	scanf("%d%d%d",&L,&R,&N);
+	for(i=L;i<=R;i++)
 	{
-	if(i==num)	
+	if(i==N)	
 	{
 		flag=1;
 	}	
