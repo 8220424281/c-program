@@ -10,14 +10,9 @@ int main()
 		count++;
 	}}
 	if(count!=2)
-	{
 	printf("YES");
-	}
 	else
-	{
 	printf("NO");
-	}
-	
 	return 0;
 	
 }
