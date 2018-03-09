@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-int N,K,a[100],i,c=0,min;
+int N,K,a[100],i,j,temp;
 scanf("%d%d",&N,&K);
 for(i=0;i<N;i++)
 {
@@ -8,14 +8,18 @@ scanf("%d",&a[i]);
 }
 
 for(i=0;i<N;i++)
-{min=a[0];
-if(min>a[i]){
-min=a[i];
-c++;
-if(K==c)
-printf("%d",a[i]);
+{
+for(j=i+1;j<N;j++)
+{
+if(a[i]>a[j])
+{
+	temp=a[i];
+	a[i]=a[j];
+	a[j]=temp;
 }
-}
+}}
+printf("%d",a[K-1]);
+
 
 	return 0;
 }
