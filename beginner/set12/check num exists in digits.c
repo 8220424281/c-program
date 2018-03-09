@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-int N,K,a[100],i;
+int N,K,a[100],i,flag=0;
 scanf("%d%d",&N,&K);
 for(i=0;i<N;i++)
 {
@@ -10,9 +10,16 @@ for(i=0;i<N;i++)
 {
 if(K==a[i])
 {
-printf("yes");
+flag=1;
 break;
 }
 }
-return 0;
+if(flag==1)
+{
+	printf("Yes");
+}
+else
+printf("No");
+
+	return 0;
 }
